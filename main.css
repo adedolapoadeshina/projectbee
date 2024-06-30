@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'cabinbold';
+    src: url('font/cabin/cabin-regular-webfont.woff2') format('woff2'),
+         url('font/cabin/cabin-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+   /* color:#000000;
+    background:#eef1fc;*/
+    font-weight:100;
+    font-family: cabinbold;
+}
+.mylogo{
+     margin-right:23px;
+     width:10px;
+     color:#fe34a6;
+     font-size:50px;
+}
+.mylogo:hover{
+    color:#000000;
+}
+.bee{
+    color:#fe34a6;
+    font-size:2em;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+div{
+   /* border:1px solid black;
+   min-height:100px;*/
+}
+.mynav{
+    background:#f6effa;
+    position:sticky;
+    top:2px;
+}
+.searchme{ 
+    margin-right:100px !important;
+}
+.mybanner{
+    background:#000000 !important;
+    min-height:500px;
+    color:#eef1fc;
+    font-size:30px;
+    font-weight:500 !important;
+}
+.aboutme{
+    background:#000000 !important;
+    min-height:500px;
+    color:#eef1fc;
+    font-size:27px;
+    font-weight:500 !important;
+    align-items: center;
+}
+.aboutme h2{
+    font-size:70px;
+    color:#f6effa;
+}
+.aboutme1{
+    border-left: 3px solid #fe34a6;
+}
+.aboutme2{
+    border-right: 3px solid #fe34a6;
+}
+.contactme{
+    background:#f6effa;
+    color:#000000;
+    min-height:400px;
+}
+.contactme h3{
+    font-size:3em;
+    color:#fe34a6;
+}
+.contactme p{
+    font-size:1.2em;
+}
+.mybanner button{
+    margin-right:;
+}
+.signupform{
+    font-size:20px;
+    color:#000000;
+}
+.accord{
+    background:#000000;
+    color:#eef1fc;
+    position:sticky;
+    top:70px;
+}
+.accord a{
+    color:#eef1fc;
+    font-size:50px;
+}
+.accord a:hover{
+    color:#fe34a6;
+}
+.accord ul li{
+    list-style-type: none;
+}
+.accord ul li a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 20px;
+}
+.pagi ul li a{
+    color:#000000;
+}
